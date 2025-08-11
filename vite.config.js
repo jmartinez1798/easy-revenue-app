@@ -6,9 +6,26 @@ export default defineConfig({
   server: {
     host: true,
     strictPort: false,
+    // Permitir los subdominios de Replit:
+    allowedHosts: [
+      /.*\.replit\.dev$/,
+      /.*\.repl\.co$/,
+      /.*\.spock\.replit\.dev$/,
+      'localhost'
+    ],
+    cors: true,
+    hmr: {
+      clientPort: 443
+    }
   },
   preview: {
     host: true,
     strictPort: false,
-  },
+    allowedHosts: [
+      /.*\.replit\.dev$/,
+      /.*\.repl\.co$/,
+      /.*\.spock\.replit\.dev$/,
+      'localhost'
+    ]
+  }
 })
