@@ -1,14 +1,7 @@
 import { Outlet, Link, NavLink } from 'react-router-dom'
+import Button from './components/Button.jsx'
 
-function Button({ variant = 'primary', children, to }) {
-  const base = 'inline-flex items-center justify-center rounded-2xl px-5 py-2.5 font-medium transition shadow-sm hover:shadow-lg'
-  const styles =
-    variant === 'primary'
-      ? 'bg-blue-600 text-white hover:bg-blue-700'
-      : 'bg-white text-gray-900 border border-gray-200 hover:bg-gray-50'
-  const content = <span className={`${base} ${styles}`}>{children}</span>
-  return to ? <Link to={to}>{content}</Link> : content
-}
+// using shared Button component
 
 function Navbar() {
   return (

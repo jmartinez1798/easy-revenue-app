@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import data from '../data/services.json'
+import Modal from '../components/Modal.jsx'
 
 function generateSlots() {
   const slots = []
@@ -17,19 +18,7 @@ function generateSlots() {
   return slots
 }
 
-function Modal({ open, onClose, children }) {
-  if (!open) return null
-  return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 p-4">
-      <div className="w-full max-w-lg rounded-2xl bg-white p-6 shadow-lg">
-        {children}
-        <div className="mt-4 text-right">
-          <button onClick={onClose} className="rounded-xl border px-4 py-2">Cerrar</button>
-        </div>
-      </div>
-    </div>
-  )
-}
+// using shared Modal component
 
 export default function ServiceDetail() {
   const { id } = useParams()
