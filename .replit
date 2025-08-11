@@ -1,10 +1,14 @@
 run = "npm run dev"
 language = "nodejs"
+modules = ["nodejs-20", "web"]
 
 [env]
 NODE_ENV = "development"
 
-[interpreter]
-command = ["bash", "-lc"]
+[deployment]
+run = ["sh", "-c", "npm run dev"]
+
+[nix]
+channel = "stable-25_05"
 
 
