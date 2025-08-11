@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "title": "Limpieza de hogar",
+    "city": "Ciudad de México",
+    "price": 30,
+    "rating": 4.7,
+    "category": "Hogar",
+    "images": [
+      "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1598300183874-46e3d69f7b4c?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1581579188871-45ea61f2a0c8?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "featured": true,
+    "description": "Limpieza profunda con materiales incluidos."
+  },
+  {
+    "id": 2,
+    "title": "Corte y peinado a domicilio",
+    "city": "Bogotá",
+    "price": 25,
+    "rating": 4.6,
+    "category": "Belleza",
+    "images": [
+      "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1517838277536-f5f959421d2e?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "featured": false,
+    "description": "Servicios de peluquería profesional a domicilio."
+  },
+  {
+    "id": 3,
+    "title": "Reparación de computadoras",
+    "city": "Lima",
+    "price": 40,
+    "rating": 4.8,
+    "category": "Tecnología",
+    "images": [
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "featured": true,
+    "description": "Diagnóstico y reparación de hardware/software."
+  },
+  {
+    "id": 4,
+    "title": "Fotografía para eventos",
+    "city": "Santiago",
+    "price": 80,
+    "rating": 4.9,
+    "category": "Eventos",
+    "images": [
+      "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "featured": false,
+    "description": "Cobertura fotográfica profesional."
+  },
+  {
+    "id": 5,
+    "title": "Paseo de mascotas",
+    "city": "Buenos Aires",
+    "price": 15,
+    "rating": 4.5,
+    "category": "Mascotas",
+    "images": [
+      "https://images.unsplash.com/photo-1543466835-00a7907e9de1?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "featured": false,
+    "description": "Paseos diarios y cuidado básico."
+  },
+  {
+    "id": 6,
+    "title": "Entrenamiento personal",
+    "city": "Monterrey",
+    "price": 50,
+    "rating": 4.7,
+    "category": "Fitness",
+    "images": [
+      "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "featured": true,
+    "description": "Planes personalizados y seguimiento."
+  },
+  {
+    "id": 7,
+    "title": "Electricista a domicilio",
+    "city": "Quito",
+    "price": 45,
+    "rating": 4.6,
+    "category": "Hogar",
+    "images": [
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "featured": false,
+    "description": "Instalaciones y reparaciones eléctricas."
+  },
+  {
+    "id": 8,
+    "title": "Organización de eventos",
+    "city": "Medellín",
+    "price": 120,
+    "rating": 4.9,
+    "category": "Eventos",
+    "images": [
+      "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1530908295418-a12e326966ba?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1500534319487-cf0b7a5e7401?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "featured": true,
+    "description": "Planeación integral de eventos."
+  }
+]
+
+
