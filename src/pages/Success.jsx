@@ -1,18 +1,13 @@
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
-export default function Success() {
+export default function Success(){
   return (
-    <div className="mx-auto max-w-6xl px-4 py-20 text-center">
-      <div className="mx-auto w-full max-w-md rounded-2xl border bg-white p-8 shadow-sm">
-        <div className="text-5xl">✅</div>
-        <h1 className="mt-3 text-2xl font-bold text-gray-900">Pago simulado exitoso</h1>
-        <p className="mt-2 text-gray-600">Recibirás un email con la confirmación.</p>
-        <div className="mt-6">
-          <Link to="/" className="rounded-2xl bg-blue-600 text-white px-5 py-2.5 inline-flex">Volver al inicio</Link>
-        </div>
-      </div>
-    </div>
-  )
+    <section className="max-w-2xl mx-auto px-4 py-20 text-center">
+      <h1 className="text-3xl font-bold text-emerald-700">¡Reserva confirmada!</h1>
+      <p className="mt-2 text-neutral-600">Te enviamos un correo con los detalles.</p>
+      <Link to="/explore" className="mt-6 inline-block px-4 py-2 rounded-2xl border hover:bg-neutral-100">Seguir explorando</Link>
+    </section>
+  );
 }
 
 

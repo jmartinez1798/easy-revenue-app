@@ -1,32 +1,28 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import './index.css'
-import App from './App.jsx'
-import Explore from './pages/Explore.jsx'
-import ServiceDetail from './pages/ServiceDetail.jsx'
-import Provider from './pages/Provider.jsx'
-import Success from './pages/Success.jsx'
-import Cancel from './pages/Cancel.jsx'
-import Landing from './pages/Landing.jsx'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import App from "./App.jsx";
+import Home from "./pages/Home.jsx";
+import Explore from "./pages/Explore.jsx";
+import ServiceDetail from "./pages/ServiceDetail.jsx";
+import Provider from "./pages/Provider.jsx";
+import Success from "./pages/Success.jsx";
+import Cancel from "./pages/Cancel.jsx";
+import "./index.css";
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <App />,
-    children: [
-      { index: true, element: <Landing /> },
-      { path: 'explore', element: <Explore /> },
-      { path: 'service/:id', element: <ServiceDetail /> },
-      { path: 'provider', element: <Provider /> },
-      { path: 'success', element: <Success /> },
-      { path: 'cancel', element: <Cancel /> },
-    ],
-  },
-])
-
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <RouterProvider router={router} />
-  </StrictMode>,
-)
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<App />}> 
+          <Route path="/" element={<Home />} />
+          <Route path="/explore" element={<Explore />} />
+          <Route path="/service/:id" element={<ServiceDetail />} />
+          <Route path="/provider" element={<Provider />} />
+          <Route path="/success" element={<Success />} />
+          <Route path="/cancel" element={<Cancel />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  </React.StrictMode>
+);

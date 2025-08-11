@@ -1,10 +1,10 @@
-export default function CategoryCard({ label }) {
+export default function CategoryCard({ title, icon="🛠️" }) {
   return (
-    <div className="rounded-2xl border bg-white p-6 shadow-sm hover:shadow-lg transition">
-      <div className="text-lg font-semibold text-gray-900">{label}</div>
-      <div className="mt-2 text-sm text-gray-500">Ver servicios</div>
+    <div className="rounded-2xl border bg-white p-5 shadow-sm hover:shadow-md transition grid place-items-start">
+      <div className="text-3xl">{icon}</div>
+      <div className="mt-3 font-semibold">{title}</div>
     </div>
-  )
+  );
 }
 
 
