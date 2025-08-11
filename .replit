@@ -11,4 +11,8 @@ run = ["sh", "-c", "npm run dev"]
 [nix]
 channel = "stable-25_05"
 
+[[ports]]
+localPort = 5173
+externalPort = 80
+
 
